@@ -1,0 +1,33 @@
+
+    #img1{
+        width: 30cm;
+        height: 15cm;
+    }
+    #img2{
+        width: 7cm;
+        height: 5cm;
+    }
+    #inpic{
+        color:white ;
+        position: absolute;
+        background-color: black;
+        top: 0cm;
+        left: 0.4cm;
+    }
+    #img3{
+        width: 4cm;
+        height: 4cm;
+    }
+    button{
+        width: 6.5cm;
+    }
+    #button{
+        width: 6.5cm;
+        background-color: black;
+        color:white ;
+    }
+    #a{
+        margin-left: 800px;
+    }
+
+    
