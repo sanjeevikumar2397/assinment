@@ -1,0 +1,43 @@
+2023-05-03T09:49:11.446+05:30  INFO 7504 --- [main] c.te.doctorflow1.Doctorflow1Application  : Starting Doctorflow1Application using Java 17.0.6 with PID 7504 (E:\Bangalore office\doctorflow-1\target\classes started by 91638 in E:\Bangalore office\doctorflow-1)
+2023-05-03T09:49:11.454+05:30  INFO 7504 --- [main] c.te.doctorflow1.Doctorflow1Application  : No active profile set, falling back to 1 default profile: "default"
+2023-05-03T09:49:12.604+05:30  INFO 7504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03T09:49:12.670+05:30  INFO 7504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 3 JPA repository interfaces.
+2023-05-03T09:49:13.177+05:30  INFO 7504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-03T09:49:13.188+05:30  INFO 7504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-03T09:49:13.188+05:30  INFO 7504 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-03T09:49:13.283+05:30  INFO 7504 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-03T09:49:13.283+05:30  INFO 7504 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1732 ms
+2023-05-03T09:49:13.405+05:30  INFO 7504 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03T09:49:13.482+05:30  INFO 7504 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-03T09:49:13.754+05:30  INFO 7504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-03T09:49:14.002+05:30  INFO 7504 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ad1be5d
+2023-05-03T09:49:14.004+05:30  INFO 7504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-03T09:49:14.024+05:30  INFO 7504 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-03T09:49:14.026+05:30  WARN 7504 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-03T09:49:14.763+05:30  INFO 7504 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03T09:49:14.773+05:30  INFO 7504 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03T09:49:15.207+05:30  WARN 7504 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-03T09:49:15.706+05:30  INFO 7504 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@40612056, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a49ce3a, org.springframework.security.web.context.SecurityContextHolderFilter@1dcc0bb8, org.springframework.security.web.header.HeaderWriterFilter@edf4973, org.springframework.security.web.authentication.logout.LogoutFilter@751526a7, com.te.doctorflow1.jwtfilter.DoctorDetailsJWTFilter@5b8b9b2d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f6998b6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24ccc91b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@518ed9b4, org.springframework.security.web.session.SessionManagementFilter@2b33f7a0, org.springframework.security.web.access.ExceptionTranslationFilter@63d43a5, org.springframework.security.web.access.intercept.AuthorizationFilter@1503f434]
+2023-05-03T09:49:15.936+05:30  INFO 7504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03T09:49:15.944+05:30  INFO 7504 --- [main] c.te.doctorflow1.Doctorflow1Application  : Started Doctorflow1Application in 5.025 seconds (process running for 5.821)
+2023-05-03T09:49:28.422+05:30  INFO 7504 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03T09:49:28.422+05:30  INFO 7504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-03T09:49:28.425+05:30  INFO 7504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-05-03T09:49:28.903+05:30  WARN 7504 --- [http-nio-8080-exec-8] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.te.doctorflow1.controller.DoctorDetailsController
+2023-05-03T09:49:29.386+05:30  INFO 7504 --- [http-nio-8080-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 571 ms
+2023-05-03T09:51:22.436+05:30  INFO 7504 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-05-03T09:51:22.443+05:30  INFO 7504 --- [RMI TCP Connection(4)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-03T09:51:22.444+05:30  INFO 7504 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-03T09:51:22.446+05:30  WARN 7504 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2023-05-03T09:51:22.451+05:30  INFO 7504 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03T09:51:22.452+05:30  INFO 7504 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-03T09:51:22.457+05:30  INFO 7504 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
